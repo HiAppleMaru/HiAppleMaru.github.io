@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="BobIt 팀 프로젝트 포트폴리오" />
+    <title>BobIt | Project Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:wght@600;700&family=Pretendard:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="BobIt 처음으로">BOB<span>IT</span></a>
+      <nav aria-label="주요 메뉴">
+        <a href="#about">ABOUT</a>
+        <a href="#work">WORK</a>
+        <a href="#role">ROLE</a>
+      </nav>
+      <a class="header-link" href="https://github.com/HiAppleMaru/BobIt" target="_blank" rel="noreferrer">GITHUB <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">TEAM PROJECT / 2023</p>
+          <h1 id="hero-title">Small moments,<br /><em>better flow.</em></h1>
+          <p class="intro">
+            2023년 폴리텍 대전캠퍼스 스마트소프트웨어과<br />
+            하이테크과정 E조의 팀 프로젝트, <strong>BobIt</strong>.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">프로젝트 보기 <span>↓</span></a>
+            <a class="button button-quiet" href="https://youtu.be/9acIZ4Rj6Ns" target="_blank" rel="noreferrer">데모 영상 <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="BobIt 프로젝트 대표 화면">
+          <div class="sun"></div>
+          <p class="art-label">BUILDING<br />SIMPLE<br />EXPERIENCES</p>
+          <img src="https://user-images.githubusercontent.com/127908405/277640202-ce65547f-ee30-4895-8e02-ca94cce2bc70.png" alt="BobIt 서비스 화면" />
+          <p class="art-index">01 — 04</p>
+        </div>
+      </section>
+
+      <section class="statement" id="about">
+        <p class="eyebrow">01 / ABOUT THE PROJECT</p>
+        <div class="statement-grid">
+          <h2>한 팀의 아이디어가<br /><em>하나의 경험</em>이 되기까지.</h2>
+          <div>
+            <p>
+              BobIt은 기획부터 화면 구현, 데이터 구성, 사용자 흐름 점검까지 함께 완성한 협업 프로젝트입니다.
+              각자의 역할을 연결해 더 자연스러운 서비스 경험을 만드는 데 집중했습니다.
+            </p>
+            <dl class="facts">
+              <div><dt>PERIOD</dt><dd>2023.09.20 — 2023.10.23</dd></div>
+              <div><dt>TEAM</dt><dd>3 people</dd></div>
+              <div><dt>COURSE</dt><dd>Smart Software, Daejeon Polytechnics</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">02 / SELECTED SCREENS</p>
+          <h2 id="work-title">Project<br /><em>in view.</em></h2>
+          <p>프로젝트의 주요 화면과 흐름을 한눈에 확인해 보세요.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="shot shot-large">
+            <img src="https://user-images.githubusercontent.com/127908405/277640210-af3276c5-8d07-4224-8732-47402aade8bb.png" alt="BobIt 화면 예시 1" loading="lazy" />
+            <figcaption><span>01</span> First impression</figcaption>
+          </figure>
+          <figure class="shot shot-top">
+            <img src="https://user-images.githubusercontent.com/127908405/277640234-827e5dca-4bca-4e0b-b3a7-f81a21f95f7a.png" alt="BobIt 화면 예시 2" loading="lazy" />
+            <figcaption><span>02</span> User flow</figcaption>
+          </figure>
+          <figure class="shot shot-bottom">
+            <img src="https://user-images.githubusercontent.com/127908405/277640258-8cd62caf-c742-4831-bee6-cd8e61cb1d80.png" alt="BobIt 화면 예시 3" loading="lazy" />
+            <figcaption><span>03</span> Detail view</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="role-section" id="role">
+        <div class="role-intro">
+          <p class="eyebrow">03 / CONTRIBUTION</p>
+          <h2>Designing the<br /><em>way in.</em></h2>
+          <p>사용자가 처음 마주하는 화면부터 안전한 로그인 흐름까지, 일관된 경험을 설계했습니다.</p>
+        </div>
+        <div class="role-list" aria-label="프로젝트 기여 역할">
+          <article><span>01</span><h3>Design</h3><p>서비스 화면의 시각적 방향과 디자인을 구성했습니다.</p></article>
+          <article><span>02</span><h3>Login flow</h3><p>로그인 관련 사용자 흐름을 구현했습니다.</p></article>
+          <article><span>03</span><h3>Interceptor</h3><p>인터셉터 구성을 통해 서비스 흐름을 보완했습니다.</p></article>
+          <article><span>04</span><h3>Testing</h3><p>사용자 관점에서 동작을 점검하고 개선했습니다.</p></article>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <p class="eyebrow">04 / TEAM BOBIT</p>
+        <div class="team-grid">
+          <p>이태형 <span>Backend · Database</span></p>
+          <p>이유진 <span>Frontend · Testing</span></p>
+          <p>이성진 <span>Design · Login · Interceptor · Testing</span></p>
+        </div>
+      </section>
+
+      <section class="outro">
+        <p class="eyebrow">THANKS FOR STOPPING BY</p>
+        <h2>See the whole<br /><em>story on GitHub.</em></h2>
+        <a class="button button-primary" href="https://github.com/HiAppleMaru/BobIt" target="_blank" rel="noreferrer">프로젝트 저장소 <span>↗</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <span>BOBIT PROJECT PORTFOLIO</span>
+      <span>2023 — PRESENTED BY HIAPPLEM ARU</span>
+    </footer>
+  </body>
+</html>
